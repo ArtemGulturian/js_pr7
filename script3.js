@@ -38,6 +38,5 @@ function isBudgetEnough(data) {
     if (data.budget - (volume * data.moneyPer1m3) >= 0){
         return 'Бюджета достаточно';
     } else {return 'Бюджета не достаточно'}
-
 }
 console.log(isBudgetEnough(shoppingMallData));
